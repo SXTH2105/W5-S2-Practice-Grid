@@ -37,4 +37,15 @@
     font-size: 1rem;
     color: #555;
   }
-   
+  
+  @media (min-width: 601px) {
+    .container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    .container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+}
